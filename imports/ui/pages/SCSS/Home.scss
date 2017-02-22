@@ -1,0 +1,65 @@
+html,
+body,
+div,
+h1,
+p,
+a
+{
+  margin: 0;
+  padding: 0;
+}
+.video {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.signup_b{
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  width: 50%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.signin_b{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 50%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.logout_b{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 90%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
