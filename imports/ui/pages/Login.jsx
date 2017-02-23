@@ -15,7 +15,7 @@ export default class Login extends Component{
         Materialize.toast(error.reason,5000);
       }
       else {
-        browserHistory.push("/chat");
+        browserHistory.push("/Red");
         Materialize.toast("Welcome back"+", "+Meteor.user().username+"!",5000);
       }
     });
