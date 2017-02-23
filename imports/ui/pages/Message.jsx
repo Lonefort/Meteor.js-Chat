@@ -4,7 +4,7 @@ import { Meteor } from 'meteor/meteor'
 import './SCSS/Chat.scss'
 export default class Message extends Component {
   render() {
-    cur = Meteor.user().username;
+    cur = this.props.message.username;
 return(
       <li className="msg">
         <p className="nick">{cur}:</p>
