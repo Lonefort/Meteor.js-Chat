@@ -23,7 +23,7 @@ export default class RegisForm extends Component{
           Materialize.toast(error.reason,5000);
         } else {
           Materialize.toast("You've sucsessfully signed up!",5000)
-          browserHistory.push('/chat');
+          browserHistory.push('/Red');
         };
       }
     );
