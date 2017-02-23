@@ -40,7 +40,7 @@ class Chat extends Component{
     return(
       <div>
        <LoggedInNav />
-       <h2>To Start Chatting, choose on of the rooms beneath!</h2>
+       <h2>To start chatting, choose one of the rooms beneath!</h2>
        <div className="container">
          <Rooms />
           <form className="messages" onSubmit={this.handleSubmit.bind(this)}>
