@@ -33,7 +33,7 @@ export default class LoggedInNav extends Component{
         <div className="nav-wrapper">
           <Link to="homeli" className="brand-logo">ChatRo</Link>
           <ul className="right hide-on-med-and-down">
-            <li><Link to='chat'>Chat</Link></li>
+            <li><Link to='Red'>Chat</Link></li>
             <li><Link to='settings'>Settings</Link></li>
             <li><Link to='/' onClick={this.logout}>Logout</Link></li>
           </ul>
