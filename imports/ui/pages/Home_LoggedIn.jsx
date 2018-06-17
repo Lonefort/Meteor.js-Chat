@@ -29,9 +29,7 @@ export default class HomeLI extends Component{
         </div>
   <article>
     <h1>
-    Welcome to ChatRo!
-    <br />
-    <span>Made by Stadnik Yuri, for KeenEthics</span>
+    Welcome to Chat!
     </h1>
   </article>
       <video className="video" loop autoPlay>
