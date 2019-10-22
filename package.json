@@ -1,8 +1,13 @@
 {
   "name": "chat",
+  "jest": {
+    "testRegex": ".*-test.js$",
+    "verbose": true
+  },
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "test": "jest"
   },
   "dependencies": {
     "babel-runtime": "6.18.0",
@@ -11,5 +16,11 @@
     "react-addons-pure-render-mixin": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "puppeteer": "^1.20.0"
   }
 }

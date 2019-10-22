@@ -5,7 +5,7 @@ export default class Home extends Component{
   constructor (props) {
         super(props);
         this.state = {
-            videoURL: 'https://static.videezy.com/system/resources/previews/000/003/492/original/typing.mp4'
+            videoURL: 'https://static.videezy.com/system/resources/previews/000/005/456/original/Earth_Eclipse_Rotate_Medium.mp4'
         }
     }
   render(){

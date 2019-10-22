@@ -29,18 +29,18 @@ export default class Login extends Component{
       <form className="col s12" onSubmit={this.loginUser}>
         <div className="row">
           <div className="input-field col s12">
-            <input id="email" type="email" className="validate"></input>
+            <input id="email" type="email" name="email" className="validate"></input>
             <label htmlFor="email">Email</label>
           </div>
         </div>
         <div className="row">
           <div className="input-field col s12">
-            <input id="password" type="password" className="validate"></input>
+            <input id="password" type="password" name="password" className="validate"></input>
             <label htmlFor="password">Password</label>
           </div>
         </div>
         <div className="button_wrap">
-        <button className="waves-effect waves-light btn">Submit</button>
+        <button type="submit" className="waves-effect waves-light btn">Submit</button>
         </div>
       </form>
     </div>
